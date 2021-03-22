@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'themix';
+    src: url('https://cdn.skauting.cz/fonts/TheMix_LT_400.eot');
+    src: url('https://cdn.skauting.cz/fonts/TheMix_LT_400.eot? #iefix') format('embedded-opentype');
+    src: url('https://cdn.skauting.cz/fonts/TheMix_LT_400.woff') format('woff'),
+    url('https://cdn.skauting.cz/fonts/TheMix_LT_400.woff2') format('woff2'),
+    url('https://cdn.skauting.cz/fonts/TheMix_LT_400.otf') format('opentype'),
+    url('https://cdn.skauting.cz/fonts/TheMix_LT_400.svg#themix') format('svg');
+    font-weight: 400;
+    font-style: normal;
+      }
+
+      @font-face {
+          font-family: 'themix';
+          src: url('https://cdn.skauting.cz/fonts/TheMix_LT_400i.eot');
+          src: url('https://cdn.skauting.cz/fonts/TheMix_LT_400i.eot? #iefix') format('embedded-opentype');
+          src: url('https://cdn.skauting.cz/fonts/TheMix_LT_400i.woff') format('woff'),
+          url('https://cdn.skauting.cz/fonts/TheMix_LT_400i.woff2') format('woff2'),
+          url('https://cdn.skauting.cz/fonts/TheMix_LT_400i.otf') format('opentype'),
+          url('https://cdn.skauting.cz/fonts/TheMix_LT_400i.svg#themix') format('svg');
+          font-weight: 400;
+          font-style: italic;
+      }
+
+      @font-face {
+          font-family: 'themix';
+          src: url('https://cdn.skauting.cz/fonts/TheMix_LT_700.eot');
+          src: url('https://cdn.skauting.cz/fonts/TheMix_LT_700.eot? #iefix') format('embedded-opentype');
+          src: url('https://cdn.skauting.cz/fonts/TheMix_LT_700.woff') format('woff'),
+          url('https://cdn.skauting.cz/fonts/TheMix_LT_700.woff2') format('woff2'),
+          url('https://cdn.skauting.cz/fonts/TheMix_LT_700.otf') format('opentype'),
+          url('https://cdn.skauting.cz/fonts/TheMix_LT_700.svg#themix') format('svg');
+          font-weight: 700;
+          font-style: normal;
+      }
+
+      @font-face {
+          font-family: 'themix';
+          src: url('https://cdn.skauting.cz/fonts/TheMix_LT_700i.eot');
+          src: url('https://cdn.skauting.cz/fonts/TheMix_LT_700i.eot? #iefix') format('embedded-opentype');
+          src: url('https://cdn.skauting.cz/fonts/TheMix_LT_700i.woff') format('woff'),
+          url('https://cdn.skauting.cz/fonts/TheMix_LT_700i.woff2') format('woff2'),
+          url('https://cdn.skauting.cz/fonts/TheMix_LT_700i.otf') format('opentype'),
+          url('https://cdn.skauting.cz/fonts/TheMix_LT_700i.svg#themix') format('svg');
+          font-weight: 700;
+          font-style: italic;
+      }
+
+      @font-face {
+          font-family: 'skautbold';
+          src: url('https://cdn.skauting.cz/fonts/skaut-bold-webfont.eot');
+          src: url('https://cdn.skauting.cz/fonts/skaut-bold-webfont.eot? #iefix') format('embedded-opentype');
+          src: url('https://cdn.skauting.cz/fonts/skaut-bold-webfont.woff') format('woff'),
+          url('https://cdn.skauting.cz/fonts/skaut-bold-webfont.woff2') format('woff2'),
+          url('https://cdn.skauting.cz/fonts/skaut-bold-webfont.otf') format('opentype'),
+          url('https://cdn.skauting.cz/fonts/skaut-bold-webfont.svg#skautbold') format('svg');
+          font-weight: normal;
+          font-style: normal;
+      }
+
+
+    .question-table {
+      width: 100%;
+    }
+    
+    .question-table th.issue {
+      height: 3em;  background: linear-gradient(315deg, #20649B, #1b5483); 
+      color: white; text-align: center; font-size: 1.3em; border: 1px white solid; width: 25%; padding: 5px;
+      border-radius: 3px;
+    }
+
+    .question-table td {
+      height: 3em; 
+      background: linear-gradient(315deg,#6B96CA, #7ca6da); 
+      color: white; text-align: center; font-size: 1.3em;
+      border: 1px white solid; visibility: hidden;
+      border-radius: 3px;
+    }
+
+    .projection .question-table th.issue {
+      font-size: 1.6em;
+    }
+
+    .projection .question-table td {
+      font-size: 1.6em;
+    }
+
+    .projection {
+      padding-top: 1em;
+    }
+
+    .question-table td.available {
+      visibility: visible;
+      cursor: pointer;
+    }
+    
+    html {
+      background-color: #BDD4DF;
+      min-height: 100%;
+    }
+
+    body {
+      background:none;
+      font-family: themix;
+    }
+    
+    .alert-primary {
+        background-color: #BDD4DF;
+    }
+    .alert-primary.active-player {
+      background-color: #87A1AE;
+      color: white;
+    }
+
+    nav {
+      margin-bottom: 1em;      
+    }
+
+    nav.navbar {
+      background-color: #eee0c8ea;
+    }
+
+    nav.navbar a {
+      color: #A38456;
+      font-weight: bold;
+    }
+
+    .card .card-body {
+      background-color: #F6EBD8;
+    }
+
+    .card .card-header {
+      background-color: #eee0c8ea;
+      font-family: skautbold;
+    }
+
+    .btn-info {
+        background-color: #6B96CA;
+        border-color: #6B96CA;
+        color: white;
+    }
+
+    .btn-danger {
+        background-color: #EA614A;
+        border-color: #EA614A;
+    }
+    
+    .btn-success {
+        background-color: #008836;
+        border-color: #008836;
+    }
+
+    h1 {
+        font-family: skautbold;
+        text-align:  center;
+        margin-bottom: 1em;
+        margin-top: 0.5em;
+    }
+
+    .card-body.question {
+        font-size: 2em
+    }
