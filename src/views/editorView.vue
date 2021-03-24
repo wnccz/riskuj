@@ -38,14 +38,7 @@
               </div>
           </div>
           <div class="col-md-9">
-            <div class="card">
-              <div class="card-header">
-                Otázky
-              </div>
-              <div class="card-body">
-                <question-editor></question-editor>
-              </div>
-            </div>
+            <question-editor></question-editor>
           </div>
     </div>
   </div>  

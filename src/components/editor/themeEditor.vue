@@ -1,7 +1,7 @@
 <template>
 <div>
     <p v-for="(issue, key) in issues" :key="key">
-        <input type="text" v-model="issues[key]">
+        <input type="text" class="form-control" v-model="issues[key]">
     </p>
 </div>
 </template>
