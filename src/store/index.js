@@ -16,46 +16,46 @@ export default new Vuex.Store({
         questions:
         [
             [
-                {question: 'Kolik bodů má skautský zákon?', answer: '10 bodů', brick: false, available: true},
-                {question: 'Jak zní první bod skautského zákona?', answer: 'Skaut je pravdomluvný', brick: false, available: true},
-                {question: 'Skaut je veselé...?', answer: 'mysli', brick: false, available: true},
-                {question: 'Skaut je ochráncem ... a cenných výtvorů ... (doplň)', answer: 'přírody, lidských', brick: false, available: true},
-                {question: 'Skaut je věrný a ... (doplňte)', answer: 'oddaný', brick: false, available: true}
+                {question: 'Kolik bodů má skautský zákon?', answer: '10 bodů', brick: false, available: true, picture: null},
+                {question: 'Jak zní první bod skautského zákona?', answer: 'Skaut je pravdomluvný', brick: false, available: true, picture: null},
+                {question: 'Skaut je veselé...?', answer: 'mysli', brick: false, available: true, picture: null},
+                {question: 'Skaut je ochráncem ... a cenných výtvorů ... (doplň)', answer: 'přírody, lidských', brick: false, available: true, picture: null},
+                {question: 'Skaut je věrný a ... (doplňte)', answer: 'oddaný', brick: false, available: true, picture: null}
             ],
             [
-                {question: 'Jmenujte alespoň tři listnaté stromy', answer: 'tak těch je víc', brick: false, available: true},
-                {question: 'Jak rozlišíme dub letní a dub zímní?', answer: 'délka stopky', brick: false, available: true},
-                {question: 'Jaký je správný botanický název pro kaštan?', answer: 'Jírovec maďal', brick: false, available: true},
-                {question: 'Jmenujte alespoň dva rody javorů', answer: 'klen, mléč, babyka, tatarský, francouzský, japonský, šedý', brick: false, available: true},
-                {question: 'Jak se nazývá plod, který má jádřinec (např. jablko)?', answer: 'malvice', brick: false, available: true},
+                {question: 'Jmenujte alespoň tři listnaté stromy', answer: 'tak těch je víc', brick: false, available: true, picture: null},
+                {question: 'Jak rozlišíme dub letní a dub zímní?', answer: 'délka stopky', brick: false, available: true, picture: null},
+                {question: 'Jaký je správný botanický název pro kaštan?', answer: 'Jírovec maďal', brick: false, available: true, picture: null},
+                {question: 'Jmenujte alespoň dva rody javorů', answer: 'klen, mléč, babyka, tatarský, francouzský, japonský, šedý', brick: false, available: true, picture: null},
+                {question: 'Jak se nazývá plod, který má jádřinec (např. jablko)?', answer: 'malvice', brick: false, available: true, picture: null},
             ],
             [
-                {question: 'Jak se jmenuje předseda vlády ČR?', answer: 'Ing. Andrej Babiš', brick: false, available: true},
-                {question: 'Jaké je hlavní město Slovenska?', answer: 'Bratislava', brick: false, available: true},
-                {question: 'Co znamená slovo demokracie?', answer: 'vláda lidu', brick: false, available: true},
-                {question: 'V jaké zemi se konají velké vyhlášené karnevaly?', answer: 'Brazílie', brick: false, available: true},
-                {question: 'Která barvy najdeme na vlajce Německa?', answer: 'černá, červená, žlutá', brick: false, available: true}
+                {question: 'Jak se jmenuje předseda vlády ČR?', answer: 'Ing. Andrej Babiš', brick: false, available: true, picture: null},
+                {question: 'Jaké je hlavní město Slovenska?', answer: 'Bratislava', brick: false, available: true, picture: null},
+                {question: 'Co znamená slovo demokracie?', answer: 'vláda lidu', brick: false, available: true, picture: null},
+                {question: 'V jaké zemi se konají velké vyhlášené karnevaly?', answer: 'Brazílie', brick: false, available: true, picture: null},
+                {question: 'Která barvy najdeme na vlajce Německa?', answer: 'černá, červená, žlutá', brick: false, available: true, picture: null}
             ],
             [
-                {question: 'V jaké zemi proběhl první skautský tábor?', answer: 'Velká Británie (v roce 1907, na ostrově Brownsea Island)', brick: false, available: true},
-                {question: 'Kdo je považován za zakladatele skautingu u nás?', answer: 'Antonín Benjamín Svojsík', brick: false, available: true},
-                {question: 'V kterém roce byl naposledy obnoven český skauting?', answer: '1989 (konkrétně 2. prosince v Městské knihovně v Praze)', brick: false, available: true},
-                {question: 'Na jakém místě psal A. B. Svojsík Základy Junáctví? Poblíž tohoto místa se konal první skautský tábor.', answer: 'Vorlovská myslivna', brick: false, available: true},
-                {question: 'Který známý český spisovatel se účastnil jedněch z prvních českých táborů?', answer: 'Jiří Wolker', brick: false, available: true}
+                {question: 'V jaké zemi proběhl první skautský tábor?', answer: 'Velká Británie (v roce 1907, na ostrově Brownsea Island)', brick: false, available: true, picture: null},
+                {question: 'Kdo je považován za zakladatele skautingu u nás?', answer: 'Antonín Benjamín Svojsík', brick: false, available: true, picture: null},
+                {question: 'V kterém roce byl naposledy obnoven český skauting?', answer: '1989 (konkrétně 2. prosince v Městské knihovně v Praze)', brick: false, available: true, picture: null},
+                {question: 'Na jakém místě psal A. B. Svojsík Základy Junáctví? Poblíž tohoto místa se konal první skautský tábor.', answer: 'Vorlovská myslivna', brick: false, available: true, picture: null},
+                {question: 'Který známý český spisovatel se účastnil jedněch z prvních českých táborů?', answer: 'Jiří Wolker', brick: false, available: true, picture: null}
             ],
             [
-                {question: 'Dcera syna mojí babičky je moje ...', answer: 'sestra nebo sestřenice', brick: false, available: true},
-                {question: 'Ze kterého ovoce se vyrábějí povidla?', answer: 'ze švestek', brick: false, available: true},
-                {question: 'Jaké je telefonní číslo policie?', answer: '158', brick: false, available: true},
-                {question: 'Kdo nebo co je to eskamotér?', answer: 'kdo předvádí eskamotáž, iluzionista, žonglér', brick: false, available: true},
-                {question: 'Co to je GPS?', answer: 'navigační systém', brick: false, available: true},
+                {question: 'Dcera syna mojí babičky je moje ...', answer: 'sestra nebo sestřenice', brick: false, available: true, picture: null},
+                {question: 'Ze kterého ovoce se vyrábějí povidla?', answer: 'ze švestek', brick: false, available: true, picture: null},
+                {question: 'Jaké je telefonní číslo policie?', answer: '158', brick: false, available: true, picture: null},
+                {question: 'Kdo nebo co je to eskamotér?', answer: 'kdo předvádí eskamotáž, iluzionista, žonglér', brick: false, available: true, picture: null},
+                {question: 'Co to je GPS?', answer: 'navigační systém', brick: false, available: true, picture: null},
             ],
             [
-                {question: 'Jaké je číslo na zdravotní službu?', answer: '155, uznat i 112', brick: false, available: true},
-                {question: 'Jak se jmenuje orgán, který pumpuje krev do celého těla?', answer: 'srdce', brick: false, available: true},
-                {question: 'Co je úžeh a jak se mu vyvarovat?', answer: 'vystavení organismu teplu, čpice, pitný režim', brick: false, available: true},
-                {question: 'Jak bys ošetřil říznutí nožem?', answer: '-', brick: false, available: true},
-                {question: 'Co znamená slovo sterilní?', answer: 'čistý, bez bakterií (dezinfikovaný)', brick: false, available: true},
+                {question: 'Jaké je číslo na zdravotní službu?', answer: '155, uznat i 112', brick: false, available: true, picture: null},
+                {question: 'Jak se jmenuje orgán, který pumpuje krev do celého těla?', answer: 'srdce', brick: false, available: true, picture: null},
+                {question: 'Co je úžeh a jak se mu vyvarovat?', answer: 'vystavení organismu teplu, čpice, pitný režim', brick: false, available: true, picture: null},
+                {question: 'Jak bys ošetřil říznutí nožem?', answer: '-', brick: false, available: true, picture: null},
+                {question: 'Co znamená slovo sterilní?', answer: 'čistý, bez bakterií (dezinfikovaný)', brick: false, available: true, picture: null},
             ]
         ]
     },
@@ -111,8 +111,25 @@ export default new Vuex.Store({
         },
         toggleEditMode(state) {
             state.editMode = ( state.editMode == false )
-            
+        },
+        addPictureToQuestion(state, args) {
+            state.questions[args[0]][args[1]].picture = args[2];
+            console.log("Ukládám obrázek");
+            console.log(state.questions[args[0]][args[1]]);
+        },
+        initPictures(state) {
+            if (typeof state.questions[0][0].picture == 'undefined') {
+                state.questions.forEach(function(questions) {
+                    questions.forEach(function (question) {
+                        question.picture = null;
+                    });
+                });
+            }
+        },
+        deletePicture(state, args) {
+            state.questions[args[0]][args[1]].picture = null;
         }
+    
     },
     plugins: [
         createMultiTabState(),

@@ -1,4 +1,5 @@
 <template>
+<div>
     <div class="card">
         <div class="card-header">
             Aktuální otázka
@@ -7,11 +8,11 @@
             <div v-if="selectedQuestion">
                 <p>
                     <strong>Otázka:</strong><br>
-                    {{ questions[selectedQuestion[0]][selectedQuestion[1]].question}} 
+                    {{ selectedQuestion.question}} 
                 </p>
                 <p>
                     <strong>Správná odpověď:</strong><br>
-                    {{ questions[selectedQuestion[0]][selectedQuestion[1]].answer}}
+                    {{ selectedQuestion.answer}}
                 </p>
                 <p>
                     <strong>Odpovídá:</strong><br>
@@ -31,13 +32,29 @@
             </div>
         </div>
     </div>
+    <br>
+    <div class="card" v-if="selectedQuestion && selectedQuestion.picture">
+        <div class="card-header">
+            Obrázek
+        </div>
+        <div class="card-body">
+            <img :src="selectedQuestion.picture">
+        </div>
+    </div>
+</div>
 </template>
 
 <script>
     export default {
         computed: {
             questions() {return this.$store.state.questions;},
-            selectedQuestion() {return this.$store.state.selectedQuestion;},
+            selectedQuestion() {
+                if (this.$store.state.selectedQuestion) {
+                    var sq = this.$store.state.selectedQuestion;
+                    return this.$store.state.questions[sq[0]][sq[1]];
+                }
+                return null;
+            },
             selectedPlayer() {return this.$store.state.selectedPlayer;},
             players() {return this.$store.state.players;},
         },
@@ -60,3 +77,9 @@
         }
     }
 </script>
+
+<style>
+    .card-body img {
+        max-width: 100%;
+    }
+</style>

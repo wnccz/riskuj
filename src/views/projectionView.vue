@@ -1,13 +1,16 @@
 <template>
     <div class="container projection">
       <div class="row">
-          <div class="col-md-9">
+          <div class="col-md-9 questions">
               <div class="card">
                 <div class="card-header">
                   Otázky
                 </div>
                 <div class="card-body">
-                  <question-table :clickable="false"></question-table>                
+                  <question-table :clickable="false"></question-table> 
+                  <div class="picture" v-if="selectedQuestion && questions[selectedQuestion[0]][selectedQuestion[1]].picture">
+                      <img :src="questions[selectedQuestion[0]][selectedQuestion[1]].picture">
+                  </div>
                 </div>              
                 
               </div>
@@ -64,3 +67,23 @@ export default {
   }
 }
 </script>
+
+<style>
+  .questions {
+    position: relative;
+  }
+  .questions .picture {
+    background: #F6EBD8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    text-align: center;
+    padding: 20px;
+  }
+  .questions .picture img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+</style>

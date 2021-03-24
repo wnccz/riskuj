@@ -52,6 +52,9 @@
   
   export default ({
       components: { Navbar, ThemeEditor, ValueEditor, QuestionEditor },
+      created () {
+        this.$store.commit('initPictures');
+      },
       methods: {
         saveQuestions() {
           var dataset = {
@@ -86,6 +89,7 @@
           }
           
           fr.readAsText(files.item(0));
+          this.$store.commit('initPictures');
         }
         
       }
