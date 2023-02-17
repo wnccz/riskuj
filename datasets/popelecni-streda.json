@@ -2,7 +2,8 @@
    "issues": [
       "Historie",
       "Obecné",
-      "Popelec"
+      "Popelec",
+      "Úkoly"
    ],
    "values": [
       "1 000",
@@ -96,6 +97,36 @@
          {
             "question": "K čemu se dříve využíval popelec?",
             "answer": "k čištění",
+            "brick": false,
+            "available": true,
+            "picture": null
+         }
+      ],
+      [
+         {
+            "question": "Když se pálí větvičky probíhá dokonalé nedokonalé či explosivní hoření? Máte jen jeden pokus, tak se strefte správně. (1 min)",
+            "answer": "pravděpodobně nedokonalé, ale záleží na kontextu",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "Zvolte mezi sebou jednoho kněze a ostatní budete lidi. Vaším úkolem, je zahrát proces udělování popelce včetně toho, co kněz říká. Na přípravu máte 2 min.",
+            "answer": "",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "Vymyslete za 1 min více než 20 slov začínajících na písmeno P. Můžete použít i jména. Ovšem slovo pouze v jednom tvaru. Pokud se vám to povede. Získáváte body. V opačném případě je ztrácíte.",
+            "answer": "",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "Za 1 min vymyslete básničku v které budou slova: půst, kněž, popelce, ratolest.",
+            "answer": "",
             "brick": false,
             "available": true,
             "picture": null
