@@ -1,52 +1,41 @@
 {
    "issues": [
       "Historie",
-      "Příroda",
-      "Svět kolem nás",
-      "Skautská historie",
-      "Obecné znalosti",
-      "Zdravověda"
+      "Obecné",
+      "Popelec"
    ],
    "values": [
       "1 000",
       "2 000",
       "3 000",
-      "4 000",
-      "5 000"
+      "4 000"
    ],
    "questions": [
       [
          {
-            "question": "Kolik bodů má skautský zákon?",
-            "answer": "10 bodů",
+            "question": "V jakém století se objevila modlitba pro žehnání popelu? (9. stol, 10. stol., 11. stol.)",
+            "answer": "11. stol",
             "brick": false,
             "available": true,
             "picture": null
          },
          {
-            "question": "Jak zní první bod skautského zákona?",
-            "answer": "Skaut je pravdomluvný",
+            "question": "V jakém století se objevil předpis pro to, že se má popel tvořit ze svěcených ratolestí Květné neděle? (11. stol., 12. stol., 13. stol.)",
+            "answer": "12. stol",
             "brick": false,
             "available": true,
             "picture": null
          },
          {
-            "question": "Skaut je veselé...?",
-            "answer": "mysli",
+            "question": "Jaký papež doporučil obyčej označování popelem na Benevetské synodě roku 1091? (Miluláš II., Lucius II., Urban II., )",
+            "answer": "Urban II.",
             "brick": false,
             "available": true,
             "picture": null
          },
          {
-            "question": "Skaut je ochráncem ... a cenných výtvorů ... (doplň)",
-            "answer": "přírody, lidských",
-            "brick": false,
-            "available": true,
-            "picture": null
-         },
-         {
-            "question": "Skaut je věrný a ... (doplňte)",
-            "answer": "oddaný",
+            "question": "Jak se původně uděloval popel? (lidé se v něm koupali, všem se sypal na hlavu, mužum se sypal na hlavu a ženám se dělal křížek na čelo)",
+            "answer": "Mužům se sypal na hlavu, ženám (kvůli závoji) se dělalo znamení kříže na čele",
             "brick": false,
             "available": true,
             "picture": null
@@ -54,36 +43,29 @@
       ],
       [
          {
-            "question": "Jmenujte alespoň tři listnaté stromy",
-            "answer": "tak těch je víc",
+            "question": "Na jaký datum letos připadá popeleční středa?",
+            "answer": "22. 2. 2023",
             "brick": false,
             "available": true,
             "picture": null
          },
          {
-            "question": "Jak rozlišíme dub letní a dub zímní?",
-            "answer": "délka stopky",
+            "question": "Jaké liturgické období začíná popeleční středou?",
+            "answer": "půst",
             "brick": false,
             "available": true,
             "picture": null
          },
          {
-            "question": "Jaký je správný botanický název pro kaštan?",
-            "answer": "Jírovec maďal",
+            "question": "Co určuje datum popeleční středy?",
+            "answer": "Vzdálenost od Velikonoční neděle (půst je 40 dní, středa tedy připadá na 46. den před Velikonoční nedělí)",
             "brick": false,
             "available": true,
             "picture": null
          },
          {
-            "question": "Jmenujte alespoň dva rody javorů",
-            "answer": "klen, mléč, babyka, tatarský, francouzský, japonský, šedý",
-            "brick": false,
-            "available": true,
-            "picture": null
-         },
-         {
-            "question": "Jak se nazývá plod, který má jádřinec (např. jablko)?",
-            "answer": "malvice",
+            "question": "Jaké slova se naříkají při udělování popelce?",
+            "answer": "Obraťte se a věřte evangeliu nebo Pamatuj, že prach jsi a v prach se obrátíš",
             "brick": false,
             "available": true,
             "picture": null
@@ -91,147 +73,29 @@
       ],
       [
          {
-            "question": "Jak se jmenuje předseda vlády ČR?",
-            "answer": "Ing. Andrej Babiš",
+            "question": "Čeho je popelec znamením?",
+            "answer": "řijetí popelce je znamením pomíjivosti člověka a odhodlání zříci se zlého jednání (hříchu).",
             "brick": false,
             "available": true,
             "picture": null
          },
          {
-            "question": "Jaké je hlavní město Slovenska?",
-            "answer": "Bratislava",
+            "question": "Odkud pochází symbol popelu?",
+            "answer": "Tento symbol je převzatý z biblické tradice. Symbolicky se tak naznačuje stav člověka, který vyznává před Bohem svůj mnohdy špatný život, své nepravosti, své zlé jednání (hřích) a vyjadřuje vůli vnitřně se obrátit s nadějí, že mu Bůh odpustí.",
             "brick": false,
             "available": true,
             "picture": null
          },
          {
-            "question": "Co znamená slovo demokracie?",
-            "answer": "vláda lidu",
+            "question": "Z čeho se vyrábí popelec?",
+            "answer": "ratolesti z Květné neděle",
             "brick": false,
             "available": true,
             "picture": null
          },
          {
-            "question": "V jaké zemi se konají velké vyhlášené karnevaly?",
-            "answer": "Brazílie",
-            "brick": false,
-            "available": true,
-            "picture": null
-         },
-         {
-            "question": "Která barvy najdeme na vlajce Německa?",
-            "answer": "černá, červená, žlutá",
-            "brick": false,
-            "available": true,
-            "picture": null
-         }
-      ],
-      [
-         {
-            "question": "V jaké zemi proběhl první skautský tábor?",
-            "answer": "Velká Británie (v roce 1907, na ostrově Brownsea Island)",
-            "brick": false,
-            "available": true,
-            "picture": null
-         },
-         {
-            "question": "Kdo je považován za zakladatele skautingu u nás?",
-            "answer": "Antonín Benjamín Svojsík",
-            "brick": false,
-            "available": true,
-            "picture": null
-         },
-         {
-            "question": "V kterém roce byl naposledy obnoven český skauting?",
-            "answer": "1989 (konkrétně 2. prosince v Městské knihovně v Praze)",
-            "brick": false,
-            "available": true,
-            "picture": null
-         },
-         {
-            "question": "Na jakém místě psal A. B. Svojsík Základy Junáctví? Poblíž tohoto místa se konal první skautský tábor.",
-            "answer": "Vorlovská myslivna",
-            "brick": false,
-            "available": true,
-            "picture": null
-         },
-         {
-            "question": "Který známý český spisovatel se účastnil jedněch z prvních českých táborů?",
-            "answer": "Jiří Wolker",
-            "brick": false,
-            "available": true,
-            "picture": null
-         }
-      ],
-      [
-         {
-            "question": "Dcera syna mojí babičky je moje ...",
-            "answer": "sestra nebo sestřenice",
-            "brick": false,
-            "available": true,
-            "picture": null
-         },
-         {
-            "question": "Ze kterého ovoce se vyrábějí povidla?",
-            "answer": "ze švestek",
-            "brick": false,
-            "available": true,
-            "picture": null
-         },
-         {
-            "question": "Jaké je telefonní číslo policie?",
-            "answer": "158",
-            "brick": false,
-            "available": true,
-            "picture": null
-         },
-         {
-            "question": "Kdo nebo co je to eskamotér?",
-            "answer": "kdo předvádí eskamotáž, iluzionista, žonglér",
-            "brick": false,
-            "available": true,
-            "picture": null
-         },
-         {
-            "question": "Co to je GPS?",
-            "answer": "navigační systém",
-            "brick": false,
-            "available": true,
-            "picture": null
-         }
-      ],
-      [
-         {
-            "question": "Jaké je číslo na zdravotní službu?",
-            "answer": "155, uznat i 112",
-            "brick": false,
-            "available": true,
-            "picture": null
-         },
-         {
-            "question": "Jak se jmenuje orgán, který pumpuje krev do celého těla?",
-            "answer": "srdce",
-            "brick": false,
-            "available": true,
-            "picture": null
-         },
-         {
-            "question": "Co je úžeh a jak se mu vyvarovat?",
-            "answer": "vystavení organismu teplu, čpice, pitný režim",
-            "brick": false,
-            "available": true,
-            "picture": null
-         },
-         {
-            "question": "Jak bys ošetřil říznutí nožem?",
-            "answer": "-",
-            "brick": false,
-            "available": true,
-            "picture": null
-         },
-         {
-            "question": "Co znamená slovo sterilní?",
-            "answer": "čistý, bez bakterií (dezinfikovaný)",
+            "question": "K čemu se dříve využíval popelec?",
+            "answer": "k čištění",
             "brick": false,
             "available": true,
             "picture": null
