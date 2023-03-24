@@ -1,0 +1,149 @@
+{
+   "issues": [
+      "Otázky",
+      "Kreslení a scénky"
+   ],
+   "values": [
+      "10",
+      "20",
+      "30",
+      "40",
+      "50",
+      "60",
+      "70",
+      "80",
+      "90"
+   ],
+   "questions": [
+      [
+         {
+            "question": "Kde byl Ježíš odsouzen k smrti?",
+            "answer": "Pilátovo sídlo",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "Jak se jmenuje hora, na kterou byl Ježíš veden ke ukřižování?",
+            "answer": "Golgota",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "Jak se jmenuje žena, která otřela Ježíšovi pot a krev z tváře?",
+            "answer": "Veronika",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "Kolikrát upadl Ježíš pod tíhou kříže?",
+            "answer": "třikrát",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "Jak se jmenuje muž, který pomohl Ježíšovi nést kříž?",
+            "answer": "Šimon z Kyrény",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "Jak je označována skupina žen, které plakaly nad Ježíšem?",
+            "answer": "Jeruzalémské dcery",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "Jak se jmenuje voják, který probodl Ježíšovo bok kopím?",
+            "answer": "Longinus",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "Kam byl Ježíš po sundání z kříže uložen?",
+            "answer": "Josefův hrob",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "V jaký den v týdnu se odehrálo první zastavení křížové cesty?",
+            "answer": "pátek",
+            "brick": false,
+            "available": true,
+            "picture": null
+         }
+      ],
+      [
+         {
+            "question": "pantomima",
+            "answer": "Kříž",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "kreslení",
+            "answer": "Kopí",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "kreslení",
+            "answer": "Bič",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "pantomima",
+            "answer": "kohout",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "kreslení",
+            "answer": "dav",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "kreslení",
+            "answer": "láska",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "kreslení",
+            "answer": "ze srdce tryská voda",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "pantomima",
+            "answer": "slza",
+            "brick": false,
+            "available": true,
+            "picture": null
+         },
+         {
+            "question": "kreslení",
+            "answer": "vojenská helma",
+            "brick": false,
+            "available": true,
+            "picture": null
+         }
+      ]
+   ]
+}
